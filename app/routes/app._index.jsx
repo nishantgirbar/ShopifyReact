@@ -107,16 +107,6 @@ export default function Index() {
   }, [productId, shopify]);
   const generateProduct = () => fetcher.submit({}, { method: "POST" });
 
-  // function createWorkOrder(){
-  //    navigate("/CreateWorkOrder");
-  // }
-  // function viewWorkOrder(){
-  //   navigate("/ViewWorkOrders");
-  // }
-  // function retrieveOrder(){
-  //    navigate("/RetrieveOrder");
-  // }
-
   return (
     <Page>
       <TitleBar title="Remix app template">
